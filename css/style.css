@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 75px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+
+}
+
+header input {
+    height: 33px;
+    width: 250px;
+    margin-right: 10px;
+    outline: none;
+}
+header i {
+    font-size: 25px;
+    
+}
+header i:hover {
+    color: rgb(255,0,0);
+    cursor: pointer;
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    /* text-align: center; */
+}
+
+.big-video > p {
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+article {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+article:hover {
+    cursor: pointer;
+}
+
+article img {
+    margin-right: 20px;
+}
+
+article h4 {
+    font-weight: 500;
+}
+article p {
+    font-weight: 300;
+}
+
+iframe {
+    width: 1200px;
+    height: 0;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+}
+
+iframe.visible {
+    height: 600px;
+}
+
+
+
+
+
